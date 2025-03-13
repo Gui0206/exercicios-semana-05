@@ -22,7 +22,7 @@ var x = 5;
 console.log(y);
 let y = 10;
 ```
-a) A saída será undefined seguido de erro
+a) A saída será undefined seguido de erro ✅ 
 Correta, pois as váriaveis ainda não tinham sido definidas (undefined) antes de serem chamadas.
 
 b) A saída será 5 seguido de 10
@@ -44,7 +44,7 @@ function soma(a, b) {
 console.log(soma(2, 0));
 ```
 
-a) Substituir if (a || b === 0) por if (a === 0 || b === 0) 
+a) Substituir if (a || b === 0) por if (a === 0 || b === 0) ✅ 
 Correta, pois a verificação de estrimamente igual a zero precisa ser feita com uma variável por vez.
 
 b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
@@ -80,7 +80,7 @@ console.log(calcularPreco("eletrônico"));
 
 a) O código imprime 1000.
 
-b) O código imprime 200.
+b) O código imprime 200. ✅ 
 Correto, pois o primeiro case dentro do switch não possui um break;, fazendo com que o código continue rodando até o próximo case.
 
 c) O código imprime 50.
@@ -102,7 +102,7 @@ b) 6
 
 c) 18
 
-d) 24
+d) 24 ✅ 
 Correto, pois primeiramente com o map criamos um novo array, e definimos seus valores como sendo os valores do array numeros multiplicados por 2, depois usando filter mantemos somente os valores maiores do que 5, depois com reduce somamos os valores restantes.
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
@@ -117,7 +117,7 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]
 
-c) ["banana", "abacaxi", "manga", "laranja"]
+c) ["banana", "abacaxi", "manga", "laranja"] ✅ 
 Correto, no método splice colocamos 1 como índice do primeiro item a ser modificado, selecionando "maçã", depois definimos 2 para a quantidade de itens a partir do índice escolhido, assim selecionamos "maçã" e "uva".
 Depois definimos "uva" e "laranja" como sendo as substituições para "maçã" e "uva".
 
@@ -129,7 +129,7 @@ I. A herança é utilizada para compartilhar métodos e propriedades entre class
 II. Em JavaScript, a herança é implementada através da palavra-chave `extends`.
 
 
-a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
+a) As duas afirmações são verdadeiras, e a segunda justifica a primeira. ✅ 
 Ao usar extends, podemos compartilhar métodos e propriedades de classes através de herança.
 
 b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
@@ -172,7 +172,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-a) I e II são verdadeiras.
+a) I e II são verdadeiras. ✅ 
 Correto, pois a classe Funcionario usa extends para herdar de pessoa e usar seus atributos. E também, usando o método super podemos acessar a função da maior classe na hierarquia (parent)
 
 b) I, II e III são verdadeiras.
@@ -190,7 +190,7 @@ ______
 
 a) A asserção é falsa e a razão é verdadeira.
 
-b) A asserção é verdadeira e a razão é falsa.
+b) A asserção é verdadeira e a razão é falsa. ✅ 
 Isso pode ser feito sobrescrevendo métodos, onde uma subclasse redefine um método herdado da classe parent.
 
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
